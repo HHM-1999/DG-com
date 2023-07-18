@@ -133,15 +133,54 @@ a {
   font-weight: 400;
   line-height: 4px;
 }
-
+.icon i{
+  margin-left: -16px;
+  margin-top: 2px;
+  height: 20px;
+}
 .icons i {
   font-size: 14px;
-  width: 32px;
-  height: 32px;
+
+  height: 24px;
   text-align: center;
   line-height: 32px;
   border-radius: 50px;
 }
 .HeroImage img {
   padding-bottom: 10%;
+}
+/* Counter */
+.Row{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Col{
+   flex-basis: 22%;
+    text-align: center;
+    color: #555;
+}
+.counter-box{
+  width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 20px -4px #66676c;
+}
+h2 span{
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 50px;
+    color: #000;
+}
+.counter-box .fa{
+    font-size: 40px;
+    color: #009688;
+    display: block;
 }
