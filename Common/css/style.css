@@ -1,0 +1,147 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1300px !important;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.top-desc-title .title {
+  font-size: 12px;
+  color: #555;
+  letter-spacing: -0.3px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.carousel-item {
+  float: none;
+  margin-right: 0;
+}
+.hero-img1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.freepik.com/premium-photo/friends-learning-study-group_23-2149257226.jpg?t=st=1689662930~exp=1689663530~hmac=a15bfd505e806dbc67c299475282926d9b8933049a1551a2e58768304912153d");
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 460px;
+}
+.hero-img2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.freepik.com/free-photo/african-woman-teaching-children-class_23-2148892563.jpg?t=st=1689662930~exp=1689663530~hmac=cc5eb39ebc6322f056b17c361309e7cba8b023688273dd359a901e8b46b6c840");
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 460px;
+}
+.hero-img3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.freepik.com/free-photo/group-diverse-grads-throwing-caps-up-sky_53876-56031.jpg?size=626&ext=jpg&ga=GA1.1.1718449584.1686640273&semt=ais");
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 460px;
+}
+h6 {
+  padding-top: 170px;
+}
+h1 {
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  line-height: 40px;
+}
+
+/* Image resize */
+.imgresize {
+  position: relative;
+}
+.imgviewer {
+  padding-top: 0%;
+  margin: 0;
+}
+.Fixing-ratio {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  object-fit: cover;
+}
+.img100 {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+/* top-area */
+.top-area-1 h2 {
+  margin-right: 5px;
+}
+.top-area {
+  background-color: antiquewhite;
+  padding: 5px 0;
+}
+.social-link {
+  margin-right: -8px;
+}
+.social-link ul {
+  padding: 0;
+  margin: 0;
+}
+.social-link ul li {
+  list-style: none;
+  display: inline;
+}
+
+.social-link ul li a i {
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 50px;
+}
+/* navbar */
+.Navbtn {
+  margin-right: -11px;
+}
+
+/* Top-middle-area */
+.middle-title h1 {
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+.top-middle-area {
+  padding: 5px 5px;
+}
+.timing {
+  margin: 0;
+}
+.timing a {
+  font-size: 12px;
+  color: #555;
+  letter-spacing: -0.3px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 4px;
+}
+
+.icons i {
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 50px;
+}
+.HeroImage img {
+  padding-bottom: 10%;
+}
