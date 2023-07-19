@@ -133,7 +133,7 @@ a {
   font-weight: 400;
   line-height: 4px;
 }
-.icon i{
+.icon i {
   margin-left: -16px;
   margin-top: 2px;
   height: 20px;
@@ -150,37 +150,71 @@ a {
   padding-bottom: 10%;
 }
 /* Counter */
-.Row{
-    width: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    top: 200%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.Row {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.Col{
-   flex-basis: 22%;
-    text-align: center;
-    color: #555;
+.Col {
+  flex-basis: 22%;
+  text-align: center;
+  color: #555;
 }
-.counter-box{
-  width: 100%;
-    height: 100%;
-    background: #fff;
-    padding: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 20px -4px #66676c;
+.counter-box {
+  width: 66%;
+  height: 100%;
+  background: #fff;
+  padding: 10px 0;
+  border-radius: 7px;
+  box-shadow: 0 0 20px -3px #66676c;
 }
-h2 span{
-    display: inline-block;
-    margin: 15px 0;
-    font-size: 50px;
-    color: #000;
+h2 span {
+  display: inline-block;
+  margin: 15px 0;
+  font-size: 50px;
+  color: #000;
 }
-.counter-box .fa{
-    font-size: 40px;
-    color: #009688;
-    display: block;
+.counter-box .fa {
+  font-size: 40px;
+  color: #009688;
+  display: block;
+}
+/*  about us */
+.about-desc p span::before {
+  position: absolute;
+  content: "";
+
+  border-top: 4px solid #006c6e;
+  top: 150%;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 15px;
+  transform: skewX(-45deg);
+}
+.about-desc p a .liner::after {
+  position: absolute;
+  content: "";
+
+  border-top: 4px solid #006c6e;
+  top: 150%;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 15px;
+  transform: skewX(-45deg);
+}
+.about-desc h1 {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: -0.3px;
+}
+.about-desc .desc {
+  font-size: 12px;
+  color: #66676c;
 }
