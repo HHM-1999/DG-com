@@ -218,3 +218,91 @@ h2 span {
   font-size: 12px;
   color: #66676c;
 }
+.user-profile .user-img img {
+  width: 37px;
+  border-radius: 55px;
+  margin-left: 2px;
+}
+.user-details h1 {
+  font-size: 14px;
+  font-size: 600;
+  line-height: 13px;
+  letter-spacing: -0.3px;
+  font-family: "Poppins", sans-serif;
+}
+.btn-aboutus button {
+  border-radius: 100px;
+}
+.btn-aboutus a {
+  text-decoration: none;
+  font-size: 12px;
+}
+#firstdiv {
+  width: 300px;
+  height: 200px;
+  border: 3px solid aqua;
+  position: absolute;
+  border-radius: 3px;
+}
+#seconddiv img {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  border-radius: 3px;
+}
+.img-aboutus {
+  margin-bottom: 88%;
+}
+.service-desc h1 {
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+.service-desc p {
+  text-align: center;
+}
+.service-img {
+  box-shadow: 0 0 20px -3px #ccc;
+  border-radius: 5px;
+  background: transparent;
+}
+.service-img h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* why choose us */
+.skill-rating h1 {
+  font-size: 12px;
+  letter-spacing: -0.3px;
+  color: #66676c;
+  line-height: 45px;
+}
+.skill-rating p {
+  font-size: 12px;
+  letter-spacing: -0.3px;
+  color: #66676c;
+  margin: 14px 0 0 270px;
+}
+#first-div {
+  width: 480px;
+  height: 330px;
+  border: 3px solid aqua;
+  position: absolute;
+  border-radius: 3px;
+}
+#second-div img {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 480px;
+  height: 330px;
+  position: absolute;
+  border-radius: 3px;
+}
+.img-chooseus {
+  margin-bottom: 125%;
+}
