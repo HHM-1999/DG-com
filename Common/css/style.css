@@ -150,21 +150,7 @@ a {
   padding-bottom: 10%;
 }
 /* Counter */
-.Row {
-  width: 75%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: absolute;
-  top: 125%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.Col {
-  flex-basis: 22%;
-  text-align: center;
-  color: #555;
-}
+
 .counter-box {
   width: 66%;
   height: 100%;
@@ -179,9 +165,19 @@ h2 span {
   font-size: 50px;
   color: #000;
 }
-.counter-box .fa {
+.counter-box h5 {
   font-size: 40px;
-  color: #009688;
+  font-weight: bold;
+  line-height: 23px;
+}
+.counter-box p {
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.counter-box i {
+  font-size: 30px;
+  color: #3399ff;
   display: block;
 }
 /*  about us */
@@ -238,17 +234,18 @@ h2 span {
   font-size: 12px;
 }
 #firstdiv {
-  width: 300px;
-  height: 200px;
+  width: 480px;
+  height: 330px;
+  margin-left: -95px;
   border: 3px solid aqua;
   position: absolute;
   border-radius: 3px;
 }
 #seconddiv img {
   margin-top: 30px;
-  margin-left: 30px;
-  width: 300px;
-  height: 200px;
+  margin-left: -127px;
+  width: 480px;
+  height: 330px;
   position: absolute;
   border-radius: 3px;
 }
@@ -305,4 +302,17 @@ h2 span {
 }
 .img-chooseus {
   margin-bottom: 125%;
+}
+.project-desc h5 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.project-desc p {
+  font-size: 12px;
+}
+/*  pagination */
+.page-pagi-link {
+  border: 1px solid #000;
+  border-radius: 50px;
 }
