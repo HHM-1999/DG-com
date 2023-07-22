@@ -3,11 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.container {
-  max-width: 1300px !important;
-  padding-right: 10px;
-  padding-left: 10px;
-}
+
 .top-desc-title .title {
   font-size: 12px;
   color: #555;
@@ -19,6 +15,14 @@ body {
 .carousel-item {
   float: none;
   margin-right: 0;
+}
+.pagination-btn button {
+  border-radius: 50%;
+  background-color: transparent;
+  width: 200px;
+}
+.pagination-btn {
+  border: 1px solid #fff;
 }
 .hero-img1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -91,7 +95,7 @@ a {
   padding: 5px 0;
 }
 .social-link {
-  margin-right: -8px;
+  margin-right: -9px;
 }
 .social-link ul {
   padding: 0;
@@ -111,17 +115,19 @@ a {
   border-radius: 50px;
 }
 /* middle area */
-.area-icon i{
-    font-size: 14px;
+.area-icon i {
+  font-size: 14px;
   width: 32px;
   height: 32px;
   text-align: center;
   line-height: 32px;
   border-radius: 50px;
   margin-top: 10px;
+  box-shadow: 2px 2px 5px 0px #ccc !important;
+  border: 1px solid #ccc;
 }
-.area-desc p{
-    font-size: 12px;
+.area-desc p {
+  font-size: 12px;
   color: #555;
   letter-spacing: -0.3px;
   font-family: "Poppins", sans-serif;
@@ -131,7 +137,11 @@ a {
 }
 /* navbar */
 .Navbtn {
-  margin-right: -11px;
+  margin-right: -17px;
+}
+.Navbtn button {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /* Top-middle-area */
@@ -173,10 +183,8 @@ a {
 /* Counter */
 
 .counter-box {
-  width: 66%;
-  height: 100%;
   background: #fff;
-  padding: 10px 0;
+  padding: 40px 0;
   border-radius: 7px;
   box-shadow: 0 0 20px -3px #66676c;
 }
@@ -202,28 +210,6 @@ h2 span {
   display: block;
 }
 /*  about us */
-.about-desc p span::before {
-  position: absolute;
-  content: "";
-
-  border-top: 4px solid #3399ff;
-  top: 150%;
-  display: inline-block;
-  vertical-align: bottom;
-  margin-left: 15px;
-  transform: skewX(-45deg);
-}
-.about-desc p a .liner::after {
-  position: absolute;
-  content: "";
-
-  border-top: 4px solid #3399ff;
-  top: 150%;
-  display: inline-block;
-  vertical-align: bottom;
-  margin-left: 15px;
-  transform: skewX(-45deg);
-}
 .about-desc h1 {
   font-size: 32px;
   font-family: "Poppins", sans-serif;
@@ -233,6 +219,10 @@ h2 span {
 }
 .about-desc h2 {
   font-size: 15px;
+  color: #66676c;
+}
+.about-desc p {
+  font-size: 12px;
   color: #66676c;
 }
 .user-profile .user-img img {
@@ -253,18 +243,45 @@ h2 span {
 .btn-aboutus a {
   text-decoration: none;
   font-size: 12px;
+  font-weight: bold;
+}
+.testimonial-sec-aboutUs {
+  position: relative;
+  padding: 7px 0;
+}
+
+.liner-aboutUs::before {
+  position: absolute;
+  content: "";
+  background: #3399ff;
+  width: 10%;
+  height: 2px;
+  transform: translateY(50%);
+  top: 38%;
+  left: 22%;
+}
+.liner-aboutUs::after {
+  position: absolute;
+  content: "";
+  background: #3399ff;
+  width: 17%;
+  height: 2px;
+  transform: translateY(50%);
+  top: 48%;
+  left: 22%;
 }
 #firstdiv {
   width: 500px;
   height: 380px;
-  margin-left: -95px;
+  margin-left: -154px;
   border: 3px solid aqua;
   position: absolute;
   border-radius: 3px;
+  margin-top: -50px;
 }
 #seconddiv img {
-  margin-top: 30px;
-  margin-left: -127px;
+  margin-top: -16px;
+  margin-left: -128px;
   width: 500px;
   height: 370px;
   position: absolute;
@@ -294,6 +311,30 @@ h2 span {
   font-size: 20px;
 }
 /* why choose us */
+.testimonial-sec-chooseUs {
+  position: relative;
+  padding: 7px 0;
+}
+.liner-chooseUs::before {
+  position: absolute;
+  content: "";
+  background: #3399ff;
+  width: 10%;
+  height: 2px;
+  transform: translateY(50%);
+  top: 37%;
+  left: 37%;
+}
+.liner-chooseUs::after {
+  position: absolute;
+  content: "";
+  background: #3399ff;
+  width: 17%;
+  height: 2px;
+  transform: translateY(50%);
+  top: 48%;
+  left: 37%;
+}
 .skill-rating h1 {
   font-size: 12px;
   letter-spacing: -0.3px;
@@ -304,18 +345,20 @@ h2 span {
   font-size: 12px;
   letter-spacing: -0.3px;
   color: #66676c;
-  margin: 14px 0 0 270px;
+  margin: 14px 0 0 200px;
 }
+
 #first-div {
   width: 480px;
   height: 330px;
   border: 3px solid aqua;
   position: absolute;
   border-radius: 3px;
+  margin-left: -40px;
 }
 #second-div img {
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: -7px;
   width: 480px;
   height: 330px;
   position: absolute;
@@ -348,7 +391,7 @@ h2 span {
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 22px 0 0 93px;
+  margin: 22px 0 0 75px;
   border: 5px double #3399ff;
 }
 .dream-img h5 {
@@ -369,7 +412,7 @@ h2 span {
 /* Tesimonial Area */
 .testimonial-sec {
   position: relative;
-  padding: 50px 0;
+  padding: 30px 0;
   text-align: center;
 }
 .section-title {
@@ -420,9 +463,38 @@ h2 span {
   left: 98%;
 }
 
-/* .section-title h2 {
-  position: relative;
-  background: #fff;
-  display: inline-block;
-  padding: 5px 15px;
-} */
+/*  
+ */
+.news-para p {
+  font-size: 12px;
+}
+.input-group input {
+  padding: 0px 10px;
+  background: transparent;
+  color: #ccc;
+}
+.input-group button {
+  font-size: 12px;
+}
+.links-details {
+  font-size: 12px;
+  color: #ccc;
+}
+footer .round-btn a {
+  padding: 0 0 0 9px;
+  background-color: transparent;
+  color: #ccc;
+  font-size: 12px;
+}
+
+footer .round-btn {
+  box-shadow: 2px 2px 5px 0px #ccc !important;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+
+footer .round-btn {
+  margin: 12px 2px;
+}
