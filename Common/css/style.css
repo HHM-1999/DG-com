@@ -17,9 +17,7 @@ body {
   margin-right: 0;
 }
 .pagination-btn button {
-  border-radius: 50%;
   background-color: transparent;
-  width: 200px;
 }
 .pagination-btn {
   border: 1px solid #fff;
