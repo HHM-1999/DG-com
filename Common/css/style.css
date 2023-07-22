@@ -3,7 +3,10 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.Border-top-footer {
+  border-top: 1px solid #555;
+  width: 100%;
+}
 .top-desc-title .title {
   font-size: 12px;
   color: #555;
@@ -206,8 +209,12 @@ h2 span {
   font-size: 30px;
   color: #3399ff;
   display: block;
+  padding-top: 10px;
 }
 /*  about us */
+.AboutUs {
+  margin-top: 80px;
+}
 .about-desc h1 {
   font-size: 32px;
   font-family: "Poppins", sans-serif;
@@ -252,41 +259,45 @@ h2 span {
   position: absolute;
   content: "";
   background: #3399ff;
-  width: 10%;
-  height: 2px;
+  width: 5%;
+  height: 1px;
   transform: translateY(50%);
-  top: 38%;
-  left: 22%;
+  top: 29%;
+  left: 16%;
 }
 .liner-aboutUs::after {
   position: absolute;
   content: "";
   background: #3399ff;
-  width: 17%;
+  width: 10%;
   height: 2px;
   transform: translateY(50%);
-  top: 48%;
-  left: 22%;
+  top: 46%;
+  left: 16%;
 }
 #firstdiv {
-  width: 500px;
-  height: 380px;
-  margin-left: -154px;
+  width: 450px;
+  height: 300px;
+  margin-left: 0px;
   border: 3px solid aqua;
   position: absolute;
   border-radius: 3px;
-  margin-top: -50px;
+  margin-top: 75px;
 }
 #seconddiv img {
-  margin-top: -16px;
-  margin-left: -128px;
-  width: 500px;
-  height: 370px;
+  margin-top: 117px;
+  margin-left: 46px;
+  width: 450px;
+  height: 300px;
   position: absolute;
   border-radius: 3px;
 }
 .img-aboutus {
   margin-bottom: 88%;
+}
+/* Services */
+.services {
+  margin-top: 80px;
 }
 .service-desc h1 {
   font-size: 38px;
@@ -309,6 +320,9 @@ h2 span {
   font-size: 20px;
 }
 /* why choose us */
+.chooseUs {
+  margin-top: 80px;
+}
 .testimonial-sec-chooseUs {
   position: relative;
   padding: 7px 0;
@@ -317,21 +331,21 @@ h2 span {
   position: absolute;
   content: "";
   background: #3399ff;
-  width: 10%;
-  height: 2px;
+  width: 5%;
+  height: 1px;
   transform: translateY(50%);
-  top: 37%;
-  left: 37%;
+  top: 29%;
+  left: 24%;
 }
 .liner-chooseUs::after {
   position: absolute;
   content: "";
   background: #3399ff;
-  width: 17%;
+  width: 10%;
   height: 2px;
   transform: translateY(50%);
   top: 48%;
-  left: 37%;
+  left: 24%;
 }
 .skill-rating h1 {
   font-size: 12px;
@@ -352,11 +366,12 @@ h2 span {
   border: 3px solid aqua;
   position: absolute;
   border-radius: 3px;
-  margin-left: -40px;
+  margin-left: 40px;
+  margin-top: 70px;
 }
 #second-div img {
-  margin-top: 30px;
-  margin-left: -7px;
+  margin-top: 100px;
+  margin-left: 70px;
   width: 480px;
   height: 330px;
   position: absolute;
@@ -373,12 +388,29 @@ h2 span {
 .project-desc p {
   font-size: 12px;
 }
+
 /*  pagination */
-.page-pagi-link {
-  border: 1px solid #000;
-  border-radius: 50px;
+.pagination-area {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 5px;
 }
+.pagination-area p {
+  /* margin-top: 10px; */
+  color: #3399ff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+}
+
 /* dream project */
+.project-area {
+  margin-top: 80px;
+}
 .dream-img {
   box-shadow: 0 0 20px -3px #ccc;
   border-radius: 5px;
@@ -406,11 +438,18 @@ h2 span {
   background: transparent;
   padding: 2px 0px 5px 0px;
 }
+/* team */
+.our-team {
+  margin-top: 80px;
+}
 
 /* Tesimonial Area */
+.testimonial-area {
+  margin-top: 80px;
+}
 .testimonial-sec {
   position: relative;
-  padding: 30px 0;
+  padding: 10px 0;
   text-align: center;
 }
 .section-title {
@@ -425,7 +464,7 @@ h2 span {
   content: "";
   background: #3399ff;
   width: 22%;
-  height: 2px;
+  height: 1px;
   transform: translateY(50%);
   top: 34%;
   left: -18%;
@@ -445,7 +484,7 @@ h2 span {
   content: "";
   background: #3399ff;
   width: 22%;
-  height: 2px;
+  height: 1px;
   transform: translateY(50%);
   top: 34%;
   left: 98%;
@@ -461,8 +500,10 @@ h2 span {
   left: 98%;
 }
 
-/*  
- */
+/* footer */
+.footer-area {
+  margin-top: 80px;
+}
 .news-para p {
   font-size: 12px;
 }
@@ -478,6 +519,13 @@ h2 span {
   font-size: 12px;
   color: #ccc;
 }
+.links-details i {
+  font-size: 10px;
+}
+footer {
+  margin-top: 30px;
+}
+
 footer .round-btn a {
   padding: 0 0 0 9px;
   background-color: transparent;
