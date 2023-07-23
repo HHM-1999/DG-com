@@ -97,6 +97,7 @@ a {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
 .drop.social-link {
   margin-right: -9px;
 }
@@ -145,14 +146,13 @@ a {
 .nav-item .home {
   margin-left: -10px;
 }
-.dropdown-menu {
-  top: 100%;
-  border-radius: none;
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  margin-top: 8px;
+  border-radius: 0;
+  padding: 0;
 }
-.dropdown-menu.show {
-  top: 100%;
-  border-radius: none;
-}
+
 .Navbtn {
   margin-right: 0px;
 }
