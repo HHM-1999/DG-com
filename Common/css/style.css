@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 .Border-top-footer {
   border-top: 1px solid #555;
   width: 100%;
@@ -24,6 +28,10 @@ body {
 }
 .pagination-btn {
   border: 1px solid #fff;
+}
+/* hero section */
+.hero-section img {
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 .hero-img1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -93,9 +101,15 @@ a {
 }
 .top-area {
   background-color: antiquewhite;
-  padding: 5px 0;
+  padding: 0;
 }
-.social-link {
+.carousel-caption {
+  margin-bottom: 28%;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.drop.social-link {
   margin-right: -9px;
 }
 .social-link ul {
