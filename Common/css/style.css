@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 .Border-top-footer {
   border-top: 1px solid #555;
   width: 100%;
@@ -13,17 +17,21 @@ body {
   letter-spacing: -0.3px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 8px;
 }
-.carousel-item {
-  float: none;
-  margin-right: 0;
-}
+
 .pagination-btn button {
   background-color: transparent;
 }
 .pagination-btn {
   border: 1px solid #fff;
+}
+/* hero section */
+.carousel-caption {
+  margin: 0 0 234px;
+}
+.hero-section img {
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 .hero-img1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -59,24 +67,11 @@ h1 {
 }
 
 /* Image resize */
-.imgresize {
-  position: relative;
-}
-.imgviewer {
-  padding-top: 0%;
-  margin: 0;
-}
-.Fixing-ratio {
-  position: relative;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+
+.img100 img {
   width: 100%;
+  height: 600px;
   object-fit: cover;
-}
-.img100 {
-  width: 100%;
 }
 ul {
   list-style: none;
@@ -88,14 +83,22 @@ a {
   text-decoration: none;
 }
 /* top-area */
-.top-area-1 h2 {
+.top-area-1 a {
   margin-right: 5px;
 }
+
 .top-area {
   background-color: antiquewhite;
-  padding: 5px 0;
+  padding: 0;
 }
-.social-link {
+/* .carousel-item {
+  height: 500px;
+} */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.drop.social-link {
   margin-right: -9px;
 }
 .social-link ul {
@@ -116,6 +119,9 @@ a {
   border-radius: 50px;
 }
 /* middle area */
+.middle-title {
+  margin-top: 8px;
+}
 .area-icon i {
   font-size: 14px;
   width: 32px;
@@ -137,8 +143,18 @@ a {
   line-height: 6px;
 }
 /* navbar */
+.nav-item .home {
+  margin-left: -10px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  margin-top: 8px;
+  border-radius: 0;
+  padding: 0;
+}
+
 .Navbtn {
-  margin-right: -17px;
+  margin-right: 0px;
 }
 .Navbtn button {
   font-size: 14px;
@@ -357,7 +373,7 @@ h2 span {
   font-size: 12px;
   letter-spacing: -0.3px;
   color: #66676c;
-  margin: 14px 0 0 200px;
+  margin: 16px 0 0 400px;
 }
 
 #first-div {
